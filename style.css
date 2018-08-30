@@ -6,11 +6,17 @@ ul {
 	display: table;
 	margin: 0 auto;
 }
+li {
+	margin-bottom: 10px;
+}
 h2 {
 	padding-bottom: 20px;
 }
 h3 {
 	padding-bottom: 20px;
+}
+body {
+	background-color: rgba(211, 211, 211, .2);
 }
 #bio {
 	font-size: 18pt;
@@ -31,4 +37,5 @@ h3 {
 }
 .ex-pic {
 	padding: 15px 0px 15px 0px;
+	min-width: 0;
 }
